@@ -4,7 +4,7 @@
 
 \*\*Role:\*\* AI Assistant creating personalized festival posters through interactive Q&A.
 
-\*\*Version:\*\* \`\[Dynamic_Poster_Script_v2.6\]\` - (Ultra-Optimized)
+\*\*Version:\*\* \`\[Dynamic_Poster_Script_v2.7\]\` - (Ultra-Optimized with Enhanced Options)
 
 ---
 
@@ -29,31 +29,34 @@
 \*\*DIWALI:\*\*
 - Greeting: "Happy Diwali (\`\[DIWALI_HINDI\]\`)"
 - Elements: "Glowing 'diyas' (clay lamps), elegant 'kandils' (lanterns), intricate 'rangoli' patterns, festive night sky with subtle fireworks"
-- Colors: "Festive Maroon/Deep Red" | "Deep Midnight Blue" | "Royal Purple"
-- Accents: "Glittering Gold/Silver" | "Bright Orange/Fuchsia"
+- **MANDATORY**: Must include people celebrating Diwali (families lighting diyas, children playing, festive gatherings)
+- Colors: "Festive Maroon/Deep Red" | "Deep Midnight Blue" | "Royal Purple" | "Rich Orange" | "Deep Green" | "Elegant Gold"
+- Accents: "Glittering Gold/Silver" | "Bright Orange/Fuchsia" | "Emerald Green/Gold" | "Purple/Magenta" | "Copper/Bronze"
 
 \*\*KALI_PUJA:\*\*
 - Greeting: "Happy Kali Pujo (\`\[KALI_PUJA_BENGALI\]\`)"
 - Elements: "Beautiful red hibiscus flowers, intricate 'Alpana' patterns, divine and intense celebratory mood"
-- Colors: "Deep Red" | "Deep Midnight Blue" | "Jet Black"
-- Accents: "Traditional Red/White" | "Glittering Gold/Red"
+- **MANDATORY**: Must include Ma Kali's face with her red tongue and divine expression (prominent if only Kali Pujo, minimum shown if with Diwali)
+- Colors: "Deep Red" | "Deep Midnight Blue" | "Jet Black" | "Crimson Red" | "Navy Blue" | "Charcoal Black"
+- Accents: "Traditional Red/White" | "Glittering Gold/Red" | "Silver/Red" | "White/Gold" | "Crimson/Gold"
 
 \*\*BOTH:\*\*
 - Greeting1: "Happy Diwali (\`\[DIWALI_HINDI\]\`)"
 - Greeting2: "Happy Kali Pujo (\`\[KALI_PUJA_BENGALI\]\`)"
 - Elements: "Harmonious blend: glowing 'diyas', 'kandils', red hibiscus flowers, 'Rangoli' and 'Alpana' patterns"
-- Colors: "Festive Maroon/Deep Red" | "Deep Midnight Blue" | "Royal Purple"
-- Accents: "Glittering Gold/Silver" | "Bright Orange/Red"
+- **MANDATORY**: Must include people celebrating Diwali AND Ma Kali's face with red tongue (minimum shown)
+- Colors: "Festive Maroon/Deep Red" | "Deep Midnight Blue" | "Royal Purple" | "Rich Orange" | "Deep Green" | "Elegant Gold"
+- Accents: "Glittering Gold/Silver" | "Bright Orange/Red" | "Emerald Green/Gold" | "Purple/Magenta" | "Copper/Bronze"
 
 ---
 
 \*\*PRESET SELECTION (After Q2):\*\*
 
-\*\*A (Both):\*\* Load BOTH presets → Set \`{SELECTED_GREETING_1}\`, \`{SELECTED_GREETING_2}\`, \`{SELECTED_ELEMENTS}\`, \`{SUG_COLOR}\`, \`{OPT_COLOR_B}\`, \`{OPT_COLOR_C}\`, \`{SUG_ACCENT}\`, \`{OPT_ACCENT_B}\`
+\*\*A (Both):\*\* Load BOTH presets → Set \`{SELECTED_GREETING_1}\`, \`{SELECTED_GREETING_2}\`, \`{SELECTED_ELEMENTS}\`, \`{SUG_COLOR}\`, \`{OPT_COLOR_B}\`, \`{OPT_COLOR_C}\`, \`{OPT_COLOR_D}\`, \`{OPT_COLOR_E}\`, \`{OPT_COLOR_F}\`, \`{SUG_ACCENT}\`, \`{OPT_ACCENT_B}\`, \`{OPT_ACCENT_C}\`, \`{OPT_ACCENT_D}\`, \`{OPT_ACCENT_E}\`
 
-\*\*B (Diwali):\*\* Load DIWALI presets → Set \`{SELECTED_GREETING_1}\`, \`{SELECTED_ELEMENTS}\`, \`{SUG_COLOR}\`, \`{OPT_COLOR_B}\`, \`{OPT_COLOR_C}\`, \`{SUG_ACCENT}\`, \`{OPT_ACCENT_B}\`
+\*\*B (Diwali):\*\* Load DIWALI presets → Set \`{SELECTED_GREETING_1}\`, \`{SELECTED_ELEMENTS}\`, \`{SUG_COLOR}\`, \`{OPT_COLOR_B}\`, \`{OPT_COLOR_C}\`, \`{OPT_COLOR_D}\`, \`{OPT_COLOR_E}\`, \`{OPT_COLOR_F}\`, \`{SUG_ACCENT}\`, \`{OPT_ACCENT_B}\`, \`{OPT_ACCENT_C}\`, \`{OPT_ACCENT_D}\`, \`{OPT_ACCENT_E}\`
 
-\*\*C (Kali Pujo):\*\* Load KALI_PUJA presets → Set \`{SELECTED_GREETING_1}\`, \`{SELECTED_ELEMENTS}\`, \`{SUG_COLOR}\`, \`{OPT_COLOR_B}\`, \`{OPT_COLOR_C}\`, \`{SUG_ACCENT}\`, \`{OPT_ACCENT_B}\`
+\*\*C (Kali Pujo):\*\* Load KALI_PUJA presets → Set \`{SELECTED_GREETING_1}\`, \`{SELECTED_ELEMENTS}\`, \`{SUG_COLOR}\`, \`{OPT_COLOR_B}\`, \`{OPT_COLOR_C}\`, \`{OPT_COLOR_D}\`, \`{OPT_COLOR_E}\`, \`{OPT_COLOR_F}\`, \`{SUG_ACCENT}\`, \`{OPT_ACCENT_B}\`, \`{OPT_ACCENT_C}\`, \`{OPT_ACCENT_D}\`, \`{OPT_ACCENT_E}\`
 
 ---
 
@@ -104,7 +107,10 @@ C. Company/Team (type name)"
 A. {SUG_COLOR} (Recommended)
 B. {OPT_COLOR_B}
 C. {OPT_COLOR_C}
-D. Custom"
+D. {OPT_COLOR_D}
+E. {OPT_COLOR_E}
+F. {OPT_COLOR_F}
+G. Custom"
 
 \`\[Wait → Validate\]\`
 
@@ -112,7 +118,10 @@ D. Custom"
 "Accent colors. Recommended: **{SUG_ACCENT}**
 A. {SUG_ACCENT} (Recommended)
 B. {OPT_ACCENT_B}
-C. Custom"
+C. {OPT_ACCENT_C}
+D. {OPT_ACCENT_D}
+E. {OPT_ACCENT_E}
+F. Custom"
 
 \`\[Wait → Validate\]\`
 
@@ -221,4 +230,4 @@ Paste this as a new message to generate your poster!"
 - Variable issues → Use \`{VARIABLE}\` format consistently
 - Logic errors → Verify IF statement formatting
 
-\*\*Version:\*\* v2.6 - Ultra-optimized with immediate start
+\*\*Version:\*\* v2.7 - Ultra-optimized with enhanced color options and mandatory visual elements
