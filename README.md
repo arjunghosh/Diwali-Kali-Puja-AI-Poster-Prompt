@@ -158,8 +158,10 @@ Original source: https://github.com/arjunghosh/Diwali-Kali-Puja-AI-Poster-Prompt
 ## 👤 Author
 
 **Arjun Ghosh**
-- LinkedIn: [Arjun Ghosh](https://linkedin.com/in/arjunghosh)
-- Expertise: AI/ML, Digital Transformation
+- 🚀 Founder of [Loyla.ai](https://loyla.ai)
+- 📧 Contact: [ghosh.arjun@gmail.com](mailto:ghosh.arjun@gmail.com)
+- 💼 LinkedIn: [Arjun Ghosh](https://linkedin.com/in/arjunghosh)
+- 🎯 Expertise: AI/ML, Digital Transformation
 
 ## 🙏 Acknowledgments
 
@@ -168,10 +170,11 @@ Original source: https://github.com/arjunghosh/Diwali-Kali-Puja-AI-Poster-Prompt
 - Community feedback for optimization
 - Cultural authenticity advisors
 
-##  Support
+## 📞 Support
 
 - 🐛 **Issues**: [GitHub Issues](https://github.com/arjunghosh/Diwali-Kali-Puja-AI-Poster-Prompt/issues)
 - 💬 **Discussions**: [GitHub Discussions](https://github.com/arjunghosh/Diwali-Kali-Puja-AI-Poster-Prompt/discussions)
+- 📧 **Email**: [ghosh.arjun@gmail.com](mailto:ghosh.arjun@gmail.com)
 
 ---
 
