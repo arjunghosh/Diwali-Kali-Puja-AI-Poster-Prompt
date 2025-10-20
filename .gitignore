@@ -4,6 +4,7 @@
 # Only include specific files
 !README.md
 !Diwali-AI-Poster-Creation-Prompt-v4.md
+!SCRIPT_VALIDATION_TEST.md
 
 # Keep .gitignore itself
 !.gitignore
@@ -12,3 +13,5 @@
 LICENSE
 PROJECT_CONTEXT.md
 index.html
+test-cases.md
+AI-CONTEXT.md
