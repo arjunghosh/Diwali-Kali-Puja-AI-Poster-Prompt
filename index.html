@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🪔 Diwali AI Poster Generator</title>
+    <meta name="description" content="Create personalized Diwali & Kali Pujo festival posters with AI. Ultra-optimized script for ChatGPT, Gemini, and Copilot.">
+    <meta name="keywords" content="diwali, kali pujo, ai poster, festival, hindi, bengali, chatgpt, gemini, copilot">
+    <meta name="author" content="Arjun Ghosh">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="🪔 Diwali AI Poster Generator">
+    <meta property="og:description" content="Create personalized Diwali & Kali Pujo festival posters with AI">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://arjunghosh.github.io/diwali-ai-poster-generator">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="🪔 Diwali AI Poster Generator">
+    <meta name="twitter:description" content="Create personalized Diwali & Kali Pujo festival posters with AI">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 40px 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+        
+        .header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .header p {
+            font-size: 1.2rem;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        
+        .badges {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+        
+        .badge {
+            background: #007bff;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            text-decoration: none;
+            transition: transform 0.3s ease;
+        }
+        
+        .badge:hover {
+            transform: translateY(-2px);
+        }
+        
+        .badge.version { background: #28a745; }
+        .badge.license { background: #17a2b8; }
+        .badge.platforms { background: #fd7e14; }
+        
+        .main-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+        
+        .card {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .card h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+        }
+        
+        .card h3 {
+            color: #34495e;
+            margin-bottom: 15px;
+            font-size: 1.2rem;
+        }
+        
+        .features {
+            list-style: none;
+        }
+        
+        .features li {
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .features li:before {
+            content: "✨ ";
+            margin-right: 10px;
+        }
+        
+        .steps {
+            counter-reset: step-counter;
+        }
+        
+        .steps li {
+            counter-increment: step-counter;
+            padding: 10px 0;
+            position: relative;
+            padding-left: 40px;
+        }
+        
+        .steps li:before {
+            content: counter(step-counter);
+            position: absolute;
+            left: 0;
+            top: 10px;
+            background: #007bff;
+            color: white;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+        
+        .code-block {
+            background: #2d3748;
+            color: #e2e8f0;
+            padding: 20px;
+            border-radius: 10px;
+            font-family: 'Courier New', monospace;
+            margin: 20px 0;
+            overflow-x: auto;
+        }
+        
+        .code-block pre {
+            margin: 0;
+        }
+        
+        .cta-section {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 40px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+            color: white;
+            padding: 15px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+        
+        .footer {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .footer p {
+            margin-bottom: 10px;
+        }
+        
+        .footer a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 768px) {
+            .main-content {
+                grid-template-columns: 1fr;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .badges {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🪔 Diwali AI Poster Generator</h1>
+            <p>Create personalized Diwali & Kali Pujo festival posters with AI</p>
+            
+            <div class="badges">
+                <span class="badge version">v2.6</span>
+                <span class="badge license">MIT License</span>
+                <span class="badge platforms">ChatGPT | Gemini | Copilot</span>
+            </div>
+        </div>
+        
+        <div class="main-content">
+            <div class="card">
+                <h2>🚀 Quick Start</h2>
+                <ol class="steps">
+                    <li>Copy the AI script from GitHub</li>
+                    <li>Paste into ChatGPT, Gemini, or Copilot</li>
+                    <li>Answer 8 simple questions</li>
+                    <li>Get your personalized poster!</li>
+                </ol>
+            </div>
+            
+            <div class="card">
+                <h2>✨ Features</h2>
+                <ul class="features">
+                    <li>Immediate start when loaded</li>
+                    <li>Platform agnostic (ChatGPT/Gemini/Copilot)</li>
+                    <li>Bilingual support (Hindi/Bengali)</li>
+                    <li>Input validation & smart defaults</li>
+                    <li>70% size reduction (ultra-optimized)</li>
+                    <li>Multi-identity support</li>
+                </ul>
+            </div>
+            
+            <div class="card">
+                <h2>🎨 Festival Support</h2>
+                <h3>🪔 Diwali</h3>
+                <p>Traditional elements: diyas, kandils, rangoli patterns, festive night sky</p>
+                
+                <h3>🌺 Kali Pujo</h3>
+                <p>Divine elements: red hibiscus flowers, Alpana patterns, intense celebratory mood</p>
+                
+                <h3>🎊 Both Festivals</h3>
+                <p>Harmonious blend of Diwali and Kali Pujo elements</p>
+            </div>
+            
+            <div class="card">
+                <h2>🛠️ Technical Specs</h2>
+                <ul class="features">
+                    <li>Version: 2.6 (Ultra-Optimized)</li>
+                    <li>File Size: ~224 lines</li>
+                    <li>Platforms: ChatGPT, Gemini, Copilot</li>
+                    <li>Languages: English, Hindi, Bengali</li>
+                    <li>Input Validation: 50 characters max</li>
+                    <li>Output: Ultra-high resolution</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="cta-section">
+            <h2>🎯 Ready to Create Your Poster?</h2>
+            <p>Get started in seconds with our ultra-optimized AI script!</p>
+            
+            <a href="https://github.com/arjunghosh/diwali-ai-poster-generator" class="cta-button">
+                📁 View on GitHub
+            </a>
+            <a href="https://github.com/arjunghosh/diwali-ai-poster-generator/raw/main/Diwali-AI-Poster-Creation-Prompt-v4.md" class="cta-button">
+                📋 Download Script
+            </a>
+        </div>
+        
+        <div class="code-block">
+            <h3>💡 Example Usage</h3>
+            <pre>1. Copy Diwali-AI-Poster-Creation-Prompt-v4.md
+2. Paste into ChatGPT/Gemini/Copilot
+3. AI asks: "Which AI platform? A. ChatGPT/Copilot B. Gemini"
+4. Answer: "A" or "B"
+5. Follow the 8-question flow
+6. Get your personalized poster!</pre>
+        </div>
+        
+        <div class="footer">
+            <p><strong>Made with ❤️ for the Diwali and Kali Pujo community</strong></p>
+            <p>Author: <a href="https://linkedin.com/in/arjunghosh">Arjun Ghosh</a></p>
+            <p>License: <a href="https://github.com/arjunghosh/diwali-ai-poster-generator/blob/main/LICENSE">MIT</a></p>
+            <p>Issues: <a href="https://github.com/arjunghosh/diwali-ai-poster-generator/issues">Report Bug</a></p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+# Ignore old versions and development files
+Diwali-AI-Poster-Creation-Prompt-v1.md
+Diwali-AI-Poster-Creation-Prompt-v2-cliude
+Diwali-AI-Poster-Creation-Prompt-v3-claude
+Diwali-AI-Poster-Creation-Prompt-v4.docx
+Diwali-Poster-Ai-Prompt-2.docx
+Diwali-Poster-Ai-Prompt.docx
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore test outputs
+test-results/
+*.log
+
+# Keep only the main optimized file
+!Diwali-AI-Poster-Creation-Prompt-v4.md
