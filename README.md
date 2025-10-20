@@ -268,8 +268,7 @@ Source: https://github.com/arjunghosh/Diwali-Kali-Puja-AI-Poster-Prompt
 **Arjun Ghosh**
 
 🚀 **Founder & CEO** - [Loyla.ai](https://loyla.ai)  
-💼 **Director of Sustainability & New Ventures** - Neoenrg  
-🎯 **Expertise**: AI/ML, Digital Transformation, Sustainability
+🎯 **Applied AI (Agentic-AI & Gen-AI) Consulting & Solutioning**
 
 **Connect**:
 - 📧 Email: [ghosh.arjun@gmail.com](mailto:ghosh.arjun@gmail.com)
