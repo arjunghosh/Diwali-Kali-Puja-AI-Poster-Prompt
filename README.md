@@ -2,9 +2,8 @@
 
 > **Ultra-optimized AI script for creating personalized Diwali & Kali Pujo festival posters with bilingual support**
 
-[![Version](https://img.shields.io/badge/version-2.6-blue.svg)](https://github.com/arjunghosh/diwali-ai-poster-generator)
 [![License](https://img.shields.io/badge/license-Attribution-green.svg)](LICENSE)
-[![AI Platforms](https://img.shields.io/badge/platforms-ChatGPT%20%7C%20Gemini%20%7C%20Copilot-orange.svg)](https://github.com/arjunghosh/diwali-ai-poster-generator)
+[![AI Platforms](https://img.shields.io/badge/platforms-ChatGPT%20%7C%20Gemini%20%7C%20Copilot-orange.svg)](https://github.com/arjunghosh/Diwali-Kali-Puja-AI-Poster-Prompt)
 
 ## ✨ Features
 
@@ -76,8 +75,6 @@
 
 | Specification | Details |
 |---------------|---------|
-| **Version** | 2.6 (Ultra-Optimized) |
-| **File Size** | ~224 lines (52% reduction) |
 | **Platforms** | ChatGPT (DALL-E 3), Gemini (Imagen 3), Copilot (Designer) |
 | **Languages** | English, Hindi (हिंदी), Bengali (বাংলা) |
 | **Input Validation** | 50 characters max |
@@ -149,24 +146,20 @@ This project is licensed under the **Attribution License** - see the [LICENSE](L
 
 If you use this software in any way, you MUST:
 1. ✅ Acknowledge the original author: **Arjun Ghosh**
-2. ✅ Provide a linkback to the original repository: https://github.com/arjunghosh/diwali-ai-poster-generator
+2. ✅ Provide a linkback to the original repository: https://github.com/arjunghosh/Diwali-Kali-Puja-AI-Poster-Prompt
 3. ✅ Include the license file in any distribution
 
 **Example attribution:**
 ```
 This script was created by Arjun Ghosh. 
-Original source: https://github.com/arjunghosh/diwali-ai-poster-generator
+Original source: https://github.com/arjunghosh/Diwali-Kali-Puja-AI-Poster-Prompt
 ```
-
-### Commercial Use
-For commercial use or custom licensing, please contact: arjun@example.com
 
 ## 👤 Author
 
 **Arjun Ghosh**
 - LinkedIn: [Arjun Ghosh](https://linkedin.com/in/arjunghosh)
-- Role: Director of Sustainability & New Ventures, Neoenrg
-- Expertise: Digital Transformation, AI/ML, Sustainability
+- Expertise: AI/ML, Digital Transformation
 
 ## 🙏 Acknowledgments
 
@@ -175,22 +168,10 @@ For commercial use or custom licensing, please contact: arjun@example.com
 - Community feedback for optimization
 - Cultural authenticity advisors
 
-## 📈 Version History
+##  Support
 
-- **v2.6**: Ultra-optimized with immediate start
-- **v2.5**: Added immediate start functionality
-- **v2.4**: Added festival preset selection logic
-- **v2.3**: Initial optimized version with bilingual support
-
-## 🌐 Live Demo
-
-[![Try it now](https://img.shields.io/badge/Try%20it%20now-GitHub%20Pages-blue.svg)](https://arjunghosh.github.io/diwali-ai-poster-generator)
-
-## 📞 Support
-
-- 🐛 **Issues**: [GitHub Issues](https://github.com/arjunghosh/diwali-ai-poster-generator/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/arjunghosh/diwali-ai-poster-generator/discussions)
-- 📧 **Email**: [Contact](mailto:arjun@example.com)
+- 🐛 **Issues**: [GitHub Issues](https://github.com/arjunghosh/Diwali-Kali-Puja-AI-Poster-Prompt/issues)
+- 💬 **Discussions**: [GitHub Discussions](https://github.com/arjunghosh/Diwali-Kali-Puja-AI-Poster-Prompt/discussions)
 
 ---
 
