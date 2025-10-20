@@ -231,3 +231,7 @@ Paste this as a new message to generate your poster!"
 - Logic errors → Verify IF statement formatting
 
 \*\*Version:\*\* v2.7 - Ultra-optimized with enhanced color options and mandatory visual elements
+
+---
+
+\*\*LICENSE:\*\* Attribution License (MIT-style) © 2024 Arjun Ghosh. Free to use with attribution. Must credit: "Created by Arjun Ghosh - https://github.com/arjunghosh/Diwali-Kali-Puja-AI-Poster-Prompt"

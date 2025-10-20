@@ -7,3 +7,8 @@
 
 # Keep .gitignore itself
 !.gitignore
+
+# Explicitly ignore these files (even though * would catch them)
+LICENSE
+PROJECT_CONTEXT.md
+index.html

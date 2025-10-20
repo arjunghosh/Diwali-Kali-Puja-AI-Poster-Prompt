@@ -1,6 +1,6 @@
-# 🪔 Diwali AI Poster Generator
+# 🪔 Diwali & Kali Pujo AI Image Prompt
 
-> **Ultra-optimized AI script for creating personalized Diwali & Kali Pujo festival posters with bilingual support**
+> **Ultra-optimized AI prompt script for LLMs to create personalized Diwali & Kali Pujo festival posters with bilingual support**
 
 [![License](https://img.shields.io/badge/license-Attribution-green.svg)](LICENSE)
 [![AI Platforms](https://img.shields.io/badge/platforms-ChatGPT%20%7C%20Gemini%20%7C%20Copilot-orange.svg)](https://github.com/arjunghosh/Diwali-Kali-Puja-AI-Poster-Prompt)
@@ -17,10 +17,10 @@
 
 ## 🚀 Quick Start
 
-1. **Copy the script**: Copy `Diwali-AI-Poster-Creation-Prompt-v4.md`
-2. **Paste into AI**: Paste into ChatGPT, Gemini, or Copilot
+1. **Copy the AI prompt**: Copy `Diwali-AI-Poster-Creation-Prompt-v4.md`
+2. **Paste into AI LLM**: Paste into ChatGPT, Gemini, or Copilot
 3. **Answer 8 questions**: Platform → Festival → Identity → Colors → Style → Regional → Signature
-4. **Get your poster**: Receive high-resolution festival poster
+4. **Get your poster**: AI generates high-resolution festival poster automatically
 
 ## 📋 How It Works
 
