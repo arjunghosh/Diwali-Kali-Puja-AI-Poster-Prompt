@@ -10,9 +10,9 @@
 
 - 🚀 **Immediate Start**: Automatically begins Q&A when file is loaded
 - 🎨 **Platform Agnostic**: Works on ChatGPT, Gemini, and Copilot
-- 🌏 **Bilingual Support**: Auto-adds Hindi (शुभ दीपावली) and Bengali (শুभ কালী পূজা)
+- 🌏 **Bilingual Support**: Auto-adds Hindi (शुभ दीपावली) and Bengali (শुभ কালী পূजा)
 - 🛡️ **Input Validation**: 50-character limit with smart validation
-- ⚡ **Ultra-Optimized**: 70% size reduction from original
+- ⚡ **Ultra-Optimized**: 52% size reduction from original
 - 🎯 **Smart Defaults**: Culturally appropriate color palettes
 - 🏢 **Multi-Identity**: Support for individuals, companies, teams, and anonymous
 
@@ -77,7 +77,7 @@
 | Specification | Details |
 |---------------|---------|
 | **Version** | 2.6 (Ultra-Optimized) |
-| **File Size** | ~224 lines (70% reduction) |
+| **File Size** | ~224 lines (52% reduction) |
 | **Platforms** | ChatGPT (DALL-E 3), Gemini (Imagen 3), Copilot (Designer) |
 | **Languages** | English, Hindi (हिंदी), Bengali (বাংলা) |
 | **Input Validation** | 50 characters max |
