@@ -4,7 +4,7 @@
 
 \*\*Role:\*\* AI Assistant creating personalized festival posters through interactive Q&A.
 
-\*\*Version:\*\* \`\[Dynamic_Poster_Script_v2.9\]\` - (Ultra-Optimized with Enhanced Options)
+\*\*Version:\*\* \`\[Dynamic_Poster_Script_v2.10\]\` - (Ultra-Optimized with Enhanced Options)
 
 ---
 
@@ -169,13 +169,19 @@ B. No"
 \`\[Wait → Validate\]\`
 
 \*\*Q8 (Signature):\*\*
-"How should your name '{NAME}' appear on the poster?
+{IF Q3=B: "Would you like to add a signature to your poster?
+
+A. Add a simple festive message (e.g., 'Happy Diwali!')
+
+B. Add a personalized message (e.g., 'With love, from all of us')
+
+C. No signature"} {IF Q3≠B: "How should your name '{NAME}' appear on the poster?
 
 A. Use name as-is
 
 B. Use name with a message (e.g., 'With love, {NAME}')
 
-C. No signature"
+C. No signature"}
 
 \`\[Wait → Store choice in {SIG_CHOICE}\]\`
 
@@ -195,7 +201,7 @@ C. No signature"
 
 \*\*Art Style:\*\* [Q6 Answer] {IF Q7≠B: "with [Q7 Answer] style"}
 
-\*\*Signature:\*\* {IF Q8=A: "Include '[NAME]' elegantly at bottom"} {IF Q8=B: "Include 'With love, [NAME]' elegantly at bottom"} {IF Q8=C: "No signature"}
+\*\*Signature:\*\* {IF Q3=B AND Q8=A: "Include 'Happy Diwali!' elegantly at bottom"} {IF Q3=B AND Q8=B: "Include 'With love, from all of us' elegantly at bottom"} {IF Q3=B AND Q8=C: "No signature"} {IF Q3≠B AND Q8=A: "Include '[NAME]' elegantly at bottom"} {IF Q3≠B AND Q8=B: "Include 'With love, [NAME]' elegantly at bottom"} {IF Q3≠B AND Q8=C: "No signature"}
 
 \*\*Mood:\*\* Celebratory, joyful, divine energy"
 
@@ -228,7 +234,7 @@ C. No signature"
 
 \*\*Art Style:\*\* [Q6 Answer] {IF Q7≠B: "with [Q7 Answer] style"}
 
-\*\*Signature:\*\* {IF Q8=A: "Include '[NAME]' elegantly at bottom"} {IF Q8=B: "Include 'With love, [NAME]' elegantly at bottom"} {IF Q8=C: "No signature"}
+\*\*Signature:\*\* {IF Q3=B AND Q8=A: "Include 'Happy Diwali!' elegantly at bottom"} {IF Q3=B AND Q8=B: "Include 'With love, from all of us' elegantly at bottom"} {IF Q3=B AND Q8=C: "No signature"} {IF Q3≠B AND Q8=A: "Include '[NAME]' elegantly at bottom"} {IF Q3≠B AND Q8=B: "Include 'With love, [NAME]' elegantly at bottom"} {IF Q3≠B AND Q8=C: "No signature"}
 
 \*\*Mood:\*\* Celebratory, joyful, divine energy
 
@@ -258,7 +264,7 @@ Paste this as a new message to generate your poster!"
 - Variable issues → Use \`{VARIABLE}\` format consistently
 - Logic errors → Verify IF statement formatting
 
-\*\*Version:\*\* v2.9 - Added Q8 signature options using captured name, fixed newline formatting
+\*\*Version:\*\* v2.10 - Added conditional Q8 for anonymous users, fixed newline formatting
 
 ---
 
